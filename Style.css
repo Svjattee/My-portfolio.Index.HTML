@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e2e8f0;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    margin: 10px 0;
+}
+
+.hero p {
+    color: #38bdf8;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.btn.small {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+/* MAIN */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CARDS */
+.card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+/* PROJECT */
+.project {
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
+}
